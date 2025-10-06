@@ -57,22 +57,22 @@
         <main id="main-content">
 
             <h2>O Meu Ranking Pessoal: A Locadora de Filmes Favoritos</h2>
-            <p>Role para ver os filmes e clique nas opções "Emprestar" ou "Vender" para simular a transação.</p>
+            <p>Role para ver os filmes e clique em "Emprestar", "Vender" ou "Assistir Trailer".</p>
 
-            <!-- Cada filme segue o mesmo padrão -->
             <!-- FILME 1 -->
             <section class="movie-ranking" id="filme1">
                 <div class="ranking-header">
                     <h3>#1: O Poderoso Chefão (1972)</h3>
                     <span class="rank-number">1º Lugar</span>
                 </div>
-                <p>O épico da máfia de Francis Ford Coppola, que marcou gerações com Marlon Brando e Al Pacino.</p>
-                <img src="Chefão.jpg"
-                    alt="Poster O Poderoso Chefão" class="movie-poster">
-
+                <p>O épico da máfia de Francis Ford Coppola, com Marlon Brando e Al Pacino.</p>
+                <img src="Chefão.jpg" alt="Poster O Poderoso Chefão" class="movie-poster">
+                <a href="https://www.youtube.com/watch?v=sY1S34973zA" target="_blank">
+                    <button>🎬 Assistir Trailer</button>
+                </a>
                 <div class="locadora-actions">
-                    <button onclick="simularLocacao('filme1','Emprestar')">Emprestar (R$ 5,00)</button>
-                    <button onclick="simularLocacao('filme1','Vender')">Vender (R$ 30,00)</button>
+                    <button onclick="simularLocacao('filme1','Emprestar')">Emprestar</button>
+                    <button onclick="simularLocacao('filme1','Vender')">Vender</button>
                     <p id="status-filme1">Disponível para locação.</p>
                 </div>
             </section>
@@ -83,13 +83,14 @@
                     <h3>#2: Um Sonho de Liberdade (1994)</h3>
                     <span class="rank-number">2º Lugar</span>
                 </div>
-                <p>Um retrato de amizade e esperança na prisão, estrelado por Morgan Freeman e Tim Robbins.</p>
-                <img src="liberdade.jpg"
-                    alt="Poster Um Sonho de Liberdade" class="movie-poster">
-
+                <p>Um retrato de amizade e esperança na prisão com Morgan Freeman e Tim Robbins.</p>
+                <img src="liberdade.jpg" alt="Poster Um Sonho de Liberdade" class="movie-poster">
+                <a href="https://www.youtube.com/watch?v=NmzuHjWmXOc" target="_blank">
+                    <button>🎬 Assistir Trailer</button>
+                </a>
                 <div class="locadora-actions">
-                    <button onclick="simularLocacao('filme2','Emprestar')">Emprestar (R$ 5,00)</button>
-                    <button onclick="simularLocacao('filme2','Vender')">Vender (R$ 30,00)</button>
+                    <button onclick="simularLocacao('filme2','Emprestar')">Emprestar</button>
+                    <button onclick="simularLocacao('filme2','Vender')">Vender</button>
                     <p id="status-filme2">Disponível para locação.</p>
                 </div>
             </section>
@@ -100,9 +101,11 @@
                     <h3>#3: O Cavaleiro das Trevas (2008)</h3>
                     <span class="rank-number">3º Lugar</span>
                 </div>
-                <p>Christopher Nolan redefiniu os heróis com a atuação inesquecível de Heath Ledger como Coringa.</p>
-                <img src="Batman.jpg"
-                    alt="Poster O Cavaleiro das Trevas" class="movie-poster">
+                <p>Christopher Nolan redefiniu os heróis com Heath Ledger como Coringa.</p>
+                <img src="Batman.jpg" alt="Poster O Cavaleiro das Trevas" class="movie-poster">
+                <a href="https://www.youtube.com/watch?v=EXeTwQWrcwY" target="_blank">
+                    <button>🎬 Assistir Trailer</button>
+                </a>
                 <div class="locadora-actions">
                     <button onclick="simularLocacao('filme3','Emprestar')">Emprestar</button>
                     <button onclick="simularLocacao('filme3','Vender')">Vender</button>
@@ -117,8 +120,10 @@
                     <span class="rank-number">4º Lugar</span>
                 </div>
                 <p>O clássico de Quentin Tarantino que mistura humor, crime e diálogos memoráveis.</p>
-                <img src="4.jpg"
-                    alt="Poster Pulp Fiction" class="movie-poster">
+                <img src="4.jpg" alt="Poster Pulp Fiction" class="movie-poster">
+                <a href="https://www.youtube.com/watch?v=s7EdQ4FqbhY" target="_blank">
+                    <button>🎬 Assistir Trailer</button>
+                </a>
                 <div class="locadora-actions">
                     <button onclick="simularLocacao('filme4','Emprestar')">Emprestar</button>
                     <button onclick="simularLocacao('filme4','Vender')">Vender</button>
@@ -132,9 +137,11 @@
                     <h3>#5: A Lista de Schindler (1993)</h3>
                     <span class="rank-number">5º Lugar</span>
                 </div>
-                <p>A emocionante história real dirigida por Steven Spielberg sobre coragem no Holocausto.</p>
-                <img src="5.jpg"
-                    alt="Poster A Lista de Schindler" class="movie-poster">
+                <p>História real dirigida por Steven Spielberg sobre coragem no Holocausto.</p>
+                <img src="5.jpg" alt="Poster A Lista de Schindler" class="movie-poster">
+                <a href="https://www.youtube.com/watch?v=gG22XNhtnoY" target="_blank">
+                    <button>🎬 Assistir Trailer</button>
+                </a>
                 <div class="locadora-actions">
                     <button onclick="simularLocacao('filme5','Emprestar')">Emprestar</button>
                     <button onclick="simularLocacao('filme5','Vender')">Vender</button>
@@ -145,16 +152,17 @@
             <!-- FILME 6 -->
             <section class="movie-ranking" id="filme6">
                 <div class="ranking-header">
-                    <h3>#6: O Senhor dos Anéis: O Retorno do Rei (2003)</h3>
+                    <h3>#6: Senhor dos Anéis: O Retorno do Rei (2003)</h3>
                     <span class="rank-number">6º Lugar</span>
                 </div>
-                <p>A batalha final pela Terra Média, com Frodo, Sam e Aragorn em uma das maiores aventuras épicas já
-                    filmadas.</p>
-                <img src="6.jpg"
-                    alt="Poster O Senhor dos Anéis: O Retorno do Rei" class="movie-poster">
+                <p>A épica conclusão da trilogia de Peter Jackson.</p>
+                <img src="6.jpg" alt="Poster O Retorno do Rei" class="movie-poster">
+                <a href="https://www.youtube.com/watch?v=r5X-hFf6Bwo" target="_blank">
+                    <button>🎬 Assistir Trailer</button>
+                </a>
                 <div class="locadora-actions">
-                    <button onclick="simularLocacao('filme6','Emprestar')">Emprestar (R$ 5,00)</button>
-                    <button onclick="simularLocacao('filme6','Vender')">Vender (R$ 30,00)</button>
+                    <button onclick="simularLocacao('filme6','Emprestar')">Emprestar</button>
+                    <button onclick="simularLocacao('filme6','Vender')">Vender</button>
                     <p id="status-filme6">Disponível para locação.</p>
                 </div>
             </section>
@@ -165,13 +173,14 @@
                     <h3>#7: A Origem (2010)</h3>
                     <span class="rank-number">7º Lugar</span>
                 </div>
-                <p>Christopher Nolan leva os sonhos ao limite em um thriller de ficção científica estrelado por Leonardo
-                    DiCaprio.</p>
-                <img src="7.jpg" alt="Poster A Origem"
-                    class="movie-poster">
+                <p>Thriller de ficção científica de Christopher Nolan.</p>
+                <img src="7.jpg" alt="Poster A Origem" class="movie-poster">
+                <a href="https://www.youtube.com/watch?v=YoHD9XEInc0" target="_blank">
+                    <button>🎬 Assistir Trailer</button>
+                </a>
                 <div class="locadora-actions">
-                    <button onclick="simularLocacao('filme7','Emprestar')">Emprestar (R$ 5,00)</button>
-                    <button onclick="simularLocacao('filme7','Vender')">Vender (R$ 30,00)</button>
+                    <button onclick="simularLocacao('filme7','Emprestar')">Emprestar</button>
+                    <button onclick="simularLocacao('filme7','Vender')">Vender</button>
                     <p id="status-filme7">Disponível para locação.</p>
                 </div>
             </section>
@@ -182,12 +191,14 @@
                     <h3>#8: Matrix (1999)</h3>
                     <span class="rank-number">8º Lugar</span>
                 </div>
-                <p>Neo descobre a verdade sobre a Matrix em uma revolução de efeitos visuais e filosofia cyberpunk.</p>
-                <img src="8.jpg" alt="Poster Matrix"
-                    class="movie-poster">
+                <p>Keanu Reeves e o universo de ficção que marcou gerações.</p>
+                <img src="8.jpg" alt="Poster Matrix" class="movie-poster">
+                <a href="https://www.youtube.com/watch?v=m8e-FF8MsqU" target="_blank">
+                    <button>🎬 Assistir Trailer</button>
+                </a>
                 <div class="locadora-actions">
-                    <button onclick="simularLocacao('filme8','Emprestar')">Emprestar (R$ 5,00)</button>
-                    <button onclick="simularLocacao('filme8','Vender')">Vender (R$ 30,00)</button>
+                    <button onclick="simularLocacao('filme8','Emprestar')">Emprestar</button>
+                    <button onclick="simularLocacao('filme8','Vender')">Vender</button>
                     <p id="status-filme8">Disponível para locação.</p>
                 </div>
             </section>
@@ -198,13 +209,14 @@
                     <h3>#9: Interestelar (2014)</h3>
                     <span class="rank-number">9º Lugar</span>
                 </div>
-                <p>Uma jornada cósmica emocionante sobre amor, tempo e a sobrevivência da humanidade, dirigida por
-                    Christopher Nolan.</p>
-                <img src="9.jpg"
-                    alt="Poster Interestelar" class="movie-poster">
+                <p>Um épico espacial emocionante de Christopher Nolan.</p>
+                <img src="9.jpg" alt="Poster Interestelar" class="movie-poster">
+                <a href="https://www.youtube.com/watch?v=zSWdZVtXT7E" target="_blank">
+                    <button>🎬 Assistir Trailer</button>
+                </a>
                 <div class="locadora-actions">
-                    <button onclick="simularLocacao('filme9','Emprestar')">Emprestar (R$ 5,00)</button>
-                    <button onclick="simularLocacao('filme9','Vender')">Vender (R$ 30,00)</button>
+                    <button onclick="simularLocacao('filme9','Emprestar')">Emprestar</button>
+                    <button onclick="simularLocacao('filme9','Vender')">Vender</button>
                     <p id="status-filme9">Disponível para locação.</p>
                 </div>
             </section>
@@ -215,13 +227,14 @@
                     <h3>#10: Gladiador (2000)</h3>
                     <span class="rank-number">10º Lugar</span>
                 </div>
-                <p>Russell Crowe vive o general Maximus em busca de vingança contra o império em uma épica história de
-                    honra e justiça.</p>
-                <img src="10.jpg" alt="Poster Gladiador"
-                    class="movie-poster">
+                <p>A jornada de Maximus interpretado por Russell Crowe.</p>
+                <img src="10.jpg" alt="Poster Gladiador" class="movie-poster">
+                <a href="https://www.youtube.com/watch?v=owK1qxDselE" target="_blank">
+                    <button>🎬 Assistir Trailer</button>
+                </a>
                 <div class="locadora-actions">
-                    <button onclick="simularLocacao('filme10','Emprestar')">Emprestar (R$ 5,00)</button>
-                    <button onclick="simularLocacao('filme10','Vender')">Vender (R$ 30,00)</button>
+                    <button onclick="simularLocacao('filme10','Emprestar')">Emprestar</button>
+                    <button onclick="simularLocacao('filme10','Vender')">Vender</button>
                     <p id="status-filme10">Disponível para locação.</p>
                 </div>
             </section>
@@ -232,13 +245,14 @@
                     <h3>#11: O Silêncio dos Inocentes (1991)</h3>
                     <span class="rank-number">11º Lugar</span>
                 </div>
-                <p>Clarice Starling precisa da ajuda do astuto Hannibal Lecter para capturar um serial killer em um
-                    thriller inesquecível.</p>
-                <img src="11.jpg"
-                    alt="Poster O Silêncio dos Inocentes" class="movie-poster">
+                <p>Thriller psicológico com Anthony Hopkins e Jodie Foster.</p>
+                <img src="11.jpg" alt="Poster O Silêncio dos Inocentes" class="movie-poster">
+                <a href="https://www.youtube.com/watch?v=W6Mm8Sbe__o" target="_blank">
+                    <button>🎬 Assistir Trailer</button>
+                </a>
                 <div class="locadora-actions">
-                    <button onclick="simularLocacao('filme11','Emprestar')">Emprestar (R$ 5,00)</button>
-                    <button onclick="simularLocacao('filme11','Vender')">Vender (R$ 30,00)</button>
+                    <button onclick="simularLocacao('filme11','Emprestar')">Emprestar</button>
+                    <button onclick="simularLocacao('filme11','Vender')">Vender</button>
                     <p id="status-filme11">Disponível para locação.</p>
                 </div>
             </section>
@@ -249,13 +263,14 @@
                     <h3>#12: Clube da Luta (1999)</h3>
                     <span class="rank-number">12º Lugar</span>
                 </div>
-                <p>Um homem desiludido encontra um enigmático vendedor de sabão e juntos criam um clube secreto de luta.
-                </p>
-                <img src="12.jpg"
-                    alt="Poster Clube da Luta" class="movie-poster">
+                <p>David Fincher dirige Brad Pitt e Edward Norton num clássico cult.</p>
+                <img src="12.jpg" alt="Poster Clube da Luta" class="movie-poster">
+                <a href="https://www.youtube.com/watch?v=SUXWAEX2jlg" target="_blank">
+                    <button>🎬 Assistir Trailer</button>
+                </a>
                 <div class="locadora-actions">
-                    <button onclick="simularLocacao('filme12','Emprestar')">Emprestar (R$ 5,00)</button>
-                    <button onclick="simularLocacao('filme12','Vender')">Vender (R$ 30,00)</button>
+                    <button onclick="simularLocacao('filme12','Emprestar')">Emprestar</button>
+                    <button onclick="simularLocacao('filme12','Vender')">Vender</button>
                     <p id="status-filme12">Disponível para locação.</p>
                 </div>
             </section>
@@ -266,12 +281,14 @@
                     <h3>#13: Coração Valente (1995)</h3>
                     <span class="rank-number">13º Lugar</span>
                 </div>
-                <p>Mel Gibson vive William Wallace, o herói escocês que liderou seu povo contra a tirania inglesa.</p>
-                <img src="13.jpg"
-                    alt="Poster Coração Valente" class="movie-poster">
+                <p>Mel Gibson revive a luta pela liberdade na Escócia.</p>
+                <img src="13.jpg" alt="Poster Coração Valente" class="movie-poster">
+                <a href="https://www.youtube.com/watch?v=nMft5QDOHek" target="_blank">
+                    <button>🎬 Assistir Trailer</button>
+                </a>
                 <div class="locadora-actions">
-                    <button onclick="simularLocacao('filme13','Emprestar')">Emprestar (R$ 5,00)</button>
-                    <button onclick="simularLocacao('filme13','Vender')">Vender (R$ 30,00)</button>
+                    <button onclick="simularLocacao('filme13','Emprestar')">Emprestar</button>
+                    <button onclick="simularLocacao('filme13','Vender')">Vender</button>
                     <p id="status-filme13">Disponível para locação.</p>
                 </div>
             </section>
@@ -282,12 +299,14 @@
                     <h3>#14: Titanic (1997)</h3>
                     <span class="rank-number">14º Lugar</span>
                 </div>
-                <p>A trágica história de amor entre Jack e Rose a bordo do navio mais famoso do mundo.</p>
-                <img src="14.jpg" alt="Poster Titanic"
-                    class="movie-poster">
+                <p>O romance épico de James Cameron com Leonardo DiCaprio e Kate Winslet.</p>
+                <img src="14.jpg" alt="Poster Titanic" class="movie-poster">
+                <a href="https://www.youtube.com/watch?v=kVrqfYjkTdQ" target="_blank">
+                    <button>🎬 Assistir Trailer</button>
+                </a>
                 <div class="locadora-actions">
-                    <button onclick="simularLocacao('filme14','Emprestar')">Emprestar (R$ 5,00)</button>
-                    <button onclick="simularLocacao('filme14','Vender')">Vender (R$ 30,00)</button>
+                    <button onclick="simularLocacao('filme14','Emprestar')">Emprestar</button>
+                    <button onclick="simularLocacao('filme14','Vender')">Vender</button>
                     <p id="status-filme14">Disponível para locação.</p>
                 </div>
             </section>
@@ -298,13 +317,14 @@
                     <h3>#15: Bastardos Inglórios (2009)</h3>
                     <span class="rank-number">15º Lugar</span>
                 </div>
-                <p>Quentin Tarantino reinventa a Segunda Guerra Mundial em uma trama cheia de vingança e diálogos
-                    marcantes.</p>
-                <img src="15.jpg"
-                    alt="Poster Bastardos Inglórios" class="movie-poster">
+                <p>Tarantino mistura história e vingança na 2ª Guerra Mundial.</p>
+                <img src="15.jpg" alt="Poster Bastardos Inglórios" class="movie-poster">
+                <a href="https://www.youtube.com/watch?v=KnrRy6kSFF0" target="_blank">
+                    <button>🎬 Assistir Trailer</button>
+                </a>
                 <div class="locadora-actions">
-                    <button onclick="simularLocacao('filme15','Emprestar')">Emprestar (R$ 5,00)</button>
-                    <button onclick="simularLocacao('filme15','Vender')">Vender (R$ 30,00)</button>
+                    <button onclick="simularLocacao('filme15','Emprestar')">Emprestar</button>
+                    <button onclick="simularLocacao('filme15','Vender')">Vender</button>
                     <p id="status-filme15">Disponível para locação.</p>
                 </div>
             </section>
@@ -315,13 +335,14 @@
                     <h3>#16: O Resgate do Soldado Ryan (1998)</h3>
                     <span class="rank-number">16º Lugar</span>
                 </div>
-                <p>Steven Spielberg retrata a Segunda Guerra Mundial em uma missão emocionante para salvar um soldado
-                    atrás das linhas inimigas.</p>
-                <img src="16.webp"
-                    alt="Poster O Resgate do Soldado Ryan" class="movie-poster">
+                <p>Steven Spielberg recria a guerra com realismo impressionante.</p>
+                <img src="16.webp" alt="Poster O Resgate do Soldado Ryan" class="movie-poster">
+                <a href="https://www.youtube.com/watch?v=zwhP5b4tD6g" target="_blank">
+                    <button>🎬 Assistir Trailer</button>
+                </a>
                 <div class="locadora-actions">
-                    <button onclick="simularLocacao('filme16','Emprestar')">Emprestar (R$ 5,00)</button>
-                    <button onclick="simularLocacao('filme16','Vender')">Vender (R$ 30,00)</button>
+                    <button onclick="simularLocacao('filme16','Emprestar')">Emprestar</button>
+                    <button onclick="simularLocacao('filme16','Vender')">Vender</button>
                     <p id="status-filme16">Disponível para locação.</p>
                 </div>
             </section>
@@ -332,12 +353,14 @@
                     <h3>#17: Os Bons Companheiros (1990)</h3>
                     <span class="rank-number">17º Lugar</span>
                 </div>
-                <p>A história real de Henry Hill e sua vida no mundo da máfia, dirigida por Martin Scorsese.</p>
-                <img src="17.webp"
-                    alt="Poster Os Bons Companheiros" class="movie-poster">
+                <p>Martin Scorsese e um dos maiores filmes de máfia da história.</p>
+                <img src="17.webp" alt="Poster Os Bons Companheiros" class="movie-poster">
+                <a href="https://www.youtube.com/watch?v=2ilzidi_J8Q" target="_blank">
+                    <button>🎬 Assistir Trailer</button>
+                </a>
                 <div class="locadora-actions">
-                    <button onclick="simularLocacao('filme17','Emprestar')">Emprestar (R$ 5,00)</button>
-                    <button onclick="simularLocacao('filme17','Vender')">Vender (R$ 30,00)</button>
+                    <button onclick="simularLocacao('filme17','Emprestar')">Emprestar</button>
+                    <button onclick="simularLocacao('filme17','Vender')">Vender</button>
                     <p id="status-filme17">Disponível para locação.</p>
                 </div>
             </section>
@@ -348,13 +371,14 @@
                     <h3>#18: Django Livre (2012)</h3>
                     <span class="rank-number">18º Lugar</span>
                 </div>
-                <p>Quentin Tarantino apresenta a história de Django, um escravo liberto que busca salvar sua esposa das
-                    garras de um cruel fazendeiro.</p>
-                <img src="18.jpg"
-                    alt="Poster Django Livre" class="movie-poster">
+                <p>Um faroeste sangrento de Quentin Tarantino.</p>
+                <img src="18.jpg" alt="Poster Django Livre" class="movie-poster">
+                <a href="https://www.youtube.com/watch?v=_iH0UBYDI4g" target="_blank">
+                    <button>🎬 Assistir Trailer</button>
+                </a>
                 <div class="locadora-actions">
-                    <button onclick="simularLocacao('filme18','Emprestar')">Emprestar (R$ 5,00)</button>
-                    <button onclick="simularLocacao('filme18','Vender')">Vender (R$ 30,00)</button>
+                    <button onclick="simularLocacao('filme18','Emprestar')">Emprestar</button>
+                    <button onclick="simularLocacao('filme18','Vender')">Vender</button>
                     <p id="status-filme18">Disponível para locação.</p>
                 </div>
             </section>
@@ -365,13 +389,14 @@
                     <h3>#19: Forrest Gump (1994)</h3>
                     <span class="rank-number">19º Lugar</span>
                 </div>
-                <p>A vida de Forrest Gump, com suas aventuras e encontros históricos, contado com humor e emoção por Tom
-                    Hanks.</p>
-                <img src="19.jpg"
-                    alt="Poster Forrest Gump" class="movie-poster">
+                <p>A vida de Forrest Gump interpretado por Tom Hanks.</p>
+                <img src="19.jpg" alt="Poster Forrest Gump" class="movie-poster">
+                <a href="https://www.youtube.com/watch?v=bLvqoHBptjg" target="_blank">
+                    <button>🎬 Assistir Trailer</button>
+                </a>
                 <div class="locadora-actions">
-                    <button onclick="simularLocacao('filme19','Emprestar')">Emprestar (R$ 5,00)</button>
-                    <button onclick="simularLocacao('filme19','Vender')">Vender (R$ 30,00)</button>
+                    <button onclick="simularLocacao('filme19','Emprestar')">Emprestar</button>
+                    <button onclick="simularLocacao('filme19','Vender')">Vender</button>
                     <p id="status-filme19">Disponível para locação.</p>
                 </div>
             </section>
@@ -382,17 +407,17 @@
                     <h3>#20: O Grande Lebowski (1998)</h3>
                     <span class="rank-number">20º Lugar</span>
                 </div>
-                <p>Uma comédia cult dos irmãos Coen sobre "The Dude" e seu envolvimento em uma trama de sequestro
-                    completamente absurda.</p>
-                <img src="20.jpg"
-                    alt="Poster O Grande Lebowski" class="movie-poster">
+                <p>Uma comédia cult dos irmãos Coen sobre “The Dude”.</p>
+                <img src="20.jpg" alt="Poster O Grande Lebowski" class="movie-poster">
+                <a href="https://www.youtube.com/watch?v=cd-go0oBF4Y" target="_blank">
+                    <button>🎬 Assistir Trailer</button>
+                </a>
                 <div class="locadora-actions">
-                    <button onclick="simularLocacao('filme20','Emprestar')">Emprestar (R$ 5,00)</button>
-                    <button onclick="simularLocacao('filme20','Vender')">Vender (R$ 30,00)</button>
+                    <button onclick="simularLocacao('filme20','Emprestar')">Emprestar</button>
+                    <button onclick="simularLocacao('filme20','Vender')">Vender</button>
                     <p id="status-filme20">Disponível para locação.</p>
                 </div>
             </section>
-
 
             <footer class="site-footer">
                 <p>&copy; 2025 Ranking Pessoal de Filmes. Todos os direitos reservados.</p>
@@ -400,7 +425,15 @@
         </main>
     </div>
 
-    <script src="locadora.js"></script>
+    <script>
+        function simularLocacao(id, acao) {
+            const status = document.getElementById(`status-${id}`);
+            if (acao === 'Emprestar') {
+                status.textContent = "Você emprestou este filme!";
+            } else {
+                status.textContent = "Você comprou este filme!";
+            }
+        }
+    </script>
 </body>
-
 </html>
